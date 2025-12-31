@@ -1,0 +1,190 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* GLOBAL */
+body {
+  font-family: "Georgia", serif;
+  background: linear-gradient(180deg, #f5f7fa, #e9edf2);
+  color: #2b2b2b;
+  line-height: 1.9;
+}
+
+/* HEADER */
+header {
+  background: linear-gradient(90deg, #1a1a1a, #2b2b2b);
+  padding: 18px 40px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  color: #ffffff;
+  font-size: 28px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+nav a {
+  color: #dddddd;
+  text-decoration: none;
+  margin-left: 22px;
+  font-size: 15px;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #ff6b6b;
+}
+
+/* SECTIONS */
+section {
+  padding: 80px 20px;
+}
+
+/* MAIN CONTENT CARD */
+.container {
+  max-width: 900px;
+  margin: auto;
+  background: #ffffff;
+  padding: 45px;
+  border-radius: 14px;
+  box-shadow: 0 15px 35px rgba(0,0,0,0.08);
+}
+
+/* SECTION HEADINGS */
+.container h1 {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 28px;
+  color: #1a1a1a;
+}
+
+/* KEYWORDS (CENTERED TAGS) */
+.keywords {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.keywords span {
+  display: inline-block;
+  background: linear-gradient(135deg, #ffecec, #ffd6d6);
+  color: #b00000;
+  padding: 7px 16px;
+  margin: 6px;
+  border-radius: 25px;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+/* STORY CARDS */
+.story-card {
+  background: linear-gradient(180deg, #ffffff, #fafafa);
+  padding: 25px 28px;
+  border-left: 6px solid #ff6b6b;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  transition: transform 0.25s, box-shadow 0.25s;
+}
+
+.story-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 25px rgba(0,0,0,0.12);
+}
+
+.story-card h2 {
+  font-size: 24px;
+  margin-bottom: 12px;
+  color: #222;
+}
+
+.story-card p {
+  color: #555;
+  font-size: 16px;
+}
+
+/* READ MORE LINK */
+.read-more {
+  display: inline-block;
+  margin-top: 14px;
+  color: #ff6b6b;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.read-more:hover {
+  text-decoration: underline;
+}
+
+/* STORY PAGE TEXT */
+.container p {
+  margin-bottom: 18px;
+  font-size: 17px;
+}
+
+/* ABOUT / PRIVACY / CONTACT BG VARIATION */
+#about {
+  background: linear-gradient(180deg, #fefefe, #f2f5f9);
+}
+
+#privacy {
+  background: linear-gradient(180deg, #fdfdfd, #eef2f6);
+}
+
+#contact {
+  background: linear-gradient(180deg, #ffffff, #f4f6f9);
+}
+
+/* FOOTER */
+footer {
+  background: linear-gradient(90deg, #1a1a1a, #2b2b2b);
+  color: #bdbdbd;
+  text-align: center;
+  padding: 30px;
+  margin-top: 70px;
+  font-size: 14px;
+}
+/* HERO BOX (READ STORIES ONLINE) */
+.hero-box {
+  background: linear-gradient(135deg, #fff5f5, #ffe3e3);
+  border-radius: 16px;
+  padding: 45px 30px;
+  text-align: center;
+  margin-bottom: 50px;
+  box-shadow: 0 12px 30px rgba(0,0,0,0.08);
+}
+
+.hero-book {
+  font-size: 60px;
+  margin-bottom: 10px;
+}
+
+.hero-box h1 {
+  font-size: 40px;
+  margin-bottom: 10px;
+  color: #1a1a1a;
+}
+
+.hero-sub {
+  font-size: 17px;
+  color: #555;
+  max-width: 600px;
+  margin: auto;
+}
+
+/* STORY SECTION BG SLIGHT COLOR */
+#stories {
+  background: linear-gradient(180deg, #fdfdfd, #f6f7fb);
+}
